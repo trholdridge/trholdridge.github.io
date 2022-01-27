@@ -1,0 +1,49 @@
+body
+{
+	font-family: 'Sarabun', sans-serif;
+	background-color: #fcffff;
+	margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.banner
+{
+	background: #c1c9cc;
+	padding: 1px;
+}
+
+.banner a
+{
+	color: #ba402b;
+	text-align: left;
+	text-decoration: none;
+}
+
+.banner a h3
+{
+	padding-left: 20px;
+	font-weight: 600;
+}
+
+h4
+{
+	margin-left: 2vw;
+}
+
+p
+{
+	margin-left: 3vw;
+}
+
+audio
+{
+	margin-left: 3vw;
+	margin-top: 1vw;
+}
+
+#divider
+{
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+}

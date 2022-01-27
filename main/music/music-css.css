@@ -1,0 +1,65 @@
+body
+{
+	font-family: 'Sarabun', sans-serif;
+	background-color: #fcffff;
+	margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.banner
+{
+	background: #c1c9cc;
+	padding: 1px;
+}
+
+.banner a
+{
+	color: #ba402b;
+	text-align: left;
+	text-decoration: none;
+}
+
+.banner a h3
+{
+	padding-left: 20px;
+	font-weight: 600;
+}
+
+h2
+{
+	color: #35393c;
+	margin-left: 2vw;
+	margin-top: 4vw;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+#pieces
+{
+	width: 100%;
+	border-spacing: 3vw;
+}
+
+#pieces tr td
+{
+	text-decoration: none;
+	font-weight: 300;
+	text-align: center;
+	width: 20%;
+	padding: 1vw;
+	border: 10px solid #ba402b;
+}
+
+#pieces tr td a
+{
+	color: #35393c;
+	text-decoration: none;
+}
+
+#something
+{
+	font-weight: 300;
+	margin-left: 3vw;
+	margin-top: 1vw;
+}
