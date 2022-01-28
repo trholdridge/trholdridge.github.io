@@ -46,9 +46,9 @@ h2
 	text-decoration: none;
 	font-weight: 300;
 	text-align: center;
-	width: 20%;
+	width: 20vw;
 	padding: 1vw;
-	border: 10px solid #ba402b;
+	border: 0.75vw solid #ba402b;
 }
 
 #pieces tr td a
