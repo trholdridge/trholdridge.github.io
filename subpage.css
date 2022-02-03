@@ -13,20 +13,20 @@ body
 	padding: 1px;
 }
 
-.banner a
+.banner h3
 {
-	color: #ba402b;
 	text-align: left;
-	text-decoration: none;
-}
-
-.banner a h3
-{
 	font-weight: 600;
 	padding-left: 20px;
 }
 
-h2
+.banner h3 a
+{
+	text-decoration: none;
+	color: #ba402b;
+}
+
+h2, h2 a
 {
 	font-weight: 600;
 	font-size: 2vw;
@@ -40,52 +40,41 @@ h2
 	width: 100%;
 	float: left;
 	margin: 0;
+	padding-top: 4vw;
+}
+
+.link
+{
+	width: 20%;
+	float: left;
+	margin-left: 4%;
 	padding: 0;
+	position: relative;
 }
 
-.links a img
+.link a img
 {
-	float: left;
 	background-color: #fcffff;
-	margin-left: 4.4vw;
-	width: 18vw;
-	height: auto;
 	border: 0.75vw solid #ba402b;
+	max-width: 98.5%;
 }
 
-.text
+.link p
 {
-	width: 100%;
-	float: left;
-}
-
-.text a p
-{
-	font-weight: "300";
-	color: #35393c;
+	font-weight: 600;
 	font-size: 1.6vw;
-	float: left;
+	background-color: #ffffff;
+	padding: 1vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.link p a
+{
 	text-decoration: none;
-}
-
-.text #code
-{
-	margin-left: 11%;
-}
-
-.text #ling
-{
-	margin-left: 18%;
-}
-
-.text #music
-{
-	margin-left: 19%;
-}
-
-.text #esp
-{
-	margin-left: 19%;
+	color: #ba402b;
 }
 
 .social
