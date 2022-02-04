@@ -22,13 +22,18 @@ body
 	padding-left: 20px;
 }
 
-h2, h2 a
+h2
 {
 	font-weight: 600;
 	font-size: 2vw;
 	color: #35393c;
 	text-align: center;
-	padding: 20px;
+	padding: 1vw;
+}
+
+h2 a
+{
+	color: #35393c;
 }
 
 .links
@@ -36,7 +41,7 @@ h2, h2 a
 	width: 100%;
 	float: left;
 	margin: 0;
-	padding: 0;
+	padding-bottom: 1.5vw;
 }
 
 .link
