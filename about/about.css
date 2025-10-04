@@ -13,17 +13,23 @@ header
 	padding: 1px;
 }
 
-header a
+header h3
+{
+	text-align: left;
+	font-weight: 600;
+	padding-left: 20px;
+}
+
+header h3 a
 {
 	color: #ba402b;
-	text-align: left;
 	text-decoration: none;
 }
 
-header a h3
+main
 {
-	font-weight: 600;
-	padding-left: 20px;
+	color: #35393c;
+	font-size: 1.6vw;
 }
 
 main .photo
@@ -32,37 +38,33 @@ main .photo
 	width: 35%;
 }
 
-main .photo img
-{
-	padding: 4vw;
-	padding-top: 6vw;
-	width: calc(35vw - 8vw);
-}
-
 main .text
 {
 	width: 65%;
 	float: right;
 }
 
-main .text h2
+main img
+{
+	padding: 4vw;
+	padding-top: 6vw;
+	width: calc(35vw - 8vw);
+}
+
+main h2
 {
 	padding-right: 4vw;
 	padding-top: 4vw;
 	font-weight: "600";
-	color: #35393c;
-	font-size: 1.6vw;
 }
 
-main .text p
+main p
 {
 	padding-right: 4vw;
 	font-weight: "300";
-	color: #35393c;
-	font-size: 1.6vw;
 }
 
-main .text p a
+main p a
 {
 	color: #35393c;
 	text-decoration-line: underline;
